@@ -20,11 +20,52 @@ The apps main features include:
 * ⌘ - show the platforms this app works on
 * ⌥ - show the Rating of the selected app
 * ⌘+⌥ - Show both the Platforms and the ratings
+
+# Setting Up Your Environment and Building The Project
+
+## Prerequisites
+- Python 3.7 or higher
+- Node.js (for build tools)
+
+## Python Environment Setup
+
+1. **Create a virtual environment:**
+   ```bash
+   python3 -m venv .venv
+   ```
+
+2. **Activate the virtual environment:**
+   ```bash
+   source .venv/bin/activate
+   ```
+
+3. **Install Python dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Running Tests
+
+Once the environment is set up, you can run the test suite:
+
+```bash
+.venv/bin/python3 -m pytest tests/ -v
+```
+
+## Building the Workflow
+
+The project uses Gulp for building. Install Node.js dependencies and build:
+
+```bash
+npm install
+npm run build
+```
+
 ---
 * Workflow currently uses hardcoded apps.json file I formatted from their site: https://setapp.com/apps
 * TODO - make JSON file download via an API or some other way rather than including in workflow.
-* TODO - filter by platform ie. iOS | MacOS 
-* TODO - sort by rating ie. percentage out of 100
+* TODO - filter by platform i.e. iOS | macOS 
+* TODO - sort by rating i.e. percentage out of 100
 
 ---
 Don't have SetApp? Use this link for 1 Month Free to try it / subscribe:

@@ -243,6 +243,17 @@ def main():
                 "icon": {"path": icon_path} if icon_path else {},
                 "quicklookurl": it.get("arg") or "",
                 "mods": build_mods(it.get("arg") or "", rating, platforms, uid_val),
+                # Set Alfred variables for each data item
+                "variables": {
+                    "setapp_uid": str(uid_val) if uid_val is not None else "",
+                    "setapp_title": it.get("title", ""),
+                    "setapp_subtitle": it.get("subtitle", ""),
+                    "setapp_iconSrc": it.get("iconSrc", ""),
+                    "setapp_arg": it.get("arg", ""),
+                    "setapp_rating": str(rating) if rating is not None else "",
+                    "setapp_platforms": platforms or "",
+                    "setapp_deeplink": f"setapp://launch/{uid_val}" if uid_val is not None else ""
+                },
                 # Let Alfred filter if you enable "Alfred filters results" in the node
                 "match": " ".join([
                     it.get("title", ""),
