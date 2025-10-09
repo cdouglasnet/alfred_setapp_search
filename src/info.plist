@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>bundleid</key>
+        <string>net.cdoug.setapp</string>
+        <key>category</key>
+        <string>CDoug</string>
+        <key>connections</key>
+        <dict>
+            <key>1938E42D-F446-4CDA-9B1C-2654DC417B5B</key>
+            <array>
+                <dict>
+                    <key>destinationuid</key>
+                    <string>A34DAC41-1DCD-4F81-A635-C6CCEFF38027</string>
+                    <key>modifiers</key>
+                    <integer>0</integer>
+                    <key>modifiersubtext</key>
+                    <string></string>
+                    <key>vitoclose</key>
+                    <false/>
+                </dict>
+                <dict>
+                    <key>destinationuid</key>
+                    <string>EA97ECBA-9A6D-40BF-91D7-F0E1F1C850DC</string>
+                    <key>modifiers</key>
+                    <integer>131072</integer>
+                    <key>modifiersubtext</key>
+                    <string></string>
+                    <key>vitoclose</key>
+                    <false/>
+                </dict>
+            </array>
+        </dict>
+        <key>createdby</key>
+        <string>Christopher Douglas</string>
+        <key>description</key>
+        <string>Quickly search and find/open/install apps from SetApp</string>
+        <key>disabled</key>
+        <false/>
+        <key>name</key>
+        <string>SetApp App Search</string>
+        <key>objects</key>
+        <array>
+            <dict>
+                <key>config</key>
+                <dict>
+                    <key>browser</key>
+                    <string></string>
+                    <key>skipqueryencode</key>
+                    <false/>
+                    <key>skipvarencode</key>
+                    <false/>
+                    <key>spaces</key>
+                    <string></string>
+                    <key>url</key>
+                    <string></string>
+                </dict>
+                <key>type</key>
+                <string>alfred.workflow.action.openurl</string>
+                <key>uid</key>
+                <string>A34DAC41-1DCD-4F81-A635-C6CCEFF38027</string>
+                <key>version</key>
+                <integer>1</integer>
+            </dict>
+            <dict>
+                <key>config</key>
+                <dict>
+                    <key>alfredfiltersresults</key>
+                    <true/>
+                    <key>alfredfiltersresultsmatchmode</key>
+                    <integer>0</integer>
+                    <key>argumenttreatemptyqueryasnil</key>
+                    <true/>
+                    <key>argumenttrimmode</key>
+                    <integer>0</integer>
+                    <key>argumenttype</key>
+                    <integer>1</integer>
+                    <key>escaping</key>
+                    <integer>68</integer>
+                    <key>keyword</key>
+                    <string>{var:keyword}</string>
+                    <key>queuedelaycustom</key>
+                    <integer>3</integer>
+                    <key>queuedelayimmediatelyinitially</key>
+                    <true/>
+                    <key>queuedelaymode</key>
+                    <integer>0</integer>
+                    <key>queuemode</key>
+                    <integer>1</integer>
+                    <key>runningsubtext</key>
+                    <string>Loading...</string>
+                    <key>script</key>
+                    <string>/usr/bin/python3 script/main.py "{query}"</string>
+                    <key>scriptargtype</key>
+                    <integer>0</integer>
+                    <key>scriptfile</key>
+                    <string></string>
+                    <key>subtext</key>
+                    <string>Search the 260+ Apps included in Setapp</string>
+                    <key>title</key>
+                    <string>Setapp App Search</string>
+                    <key>type</key>
+                    <integer>0</integer>
+                    <key>withspace</key>
+                    <true/>
+                </dict>
+                <key>type</key>
+                <string>alfred.workflow.input.scriptfilter</string>
+                <key>uid</key>
+                <string>1938E42D-F446-4CDA-9B1C-2654DC417B5B</string>
+                <key>version</key>
+                <integer>3</integer>
+            </dict>
+            <dict>
+                <key>config</key>
+                <dict>
+                    <key>browser</key>
+                    <string></string>
+                    <key>skipqueryencode</key>
+                    <false/>
+                    <key>skipvarencode</key>
+                    <false/>
+                    <key>spaces</key>
+                    <string></string>
+                    <key>url</key>
+                    <string></string>
+                </dict>
+                <key>type</key>
+                <string>alfred.workflow.action.openurl</string>
+                <key>uid</key>
+                <string>EA97ECBA-9A6D-40BF-91D7-F0E1F1C850DC</string>
+                <key>version</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>readme</key>
+        <string># SetApp Search
+
+Search SetApp Applications via Alfred
+
+![Icon](media/icon.png)
+
+SetApp is a paid subscription service that gives you access to **260+ Mac / iOS** apps.
+This workflow allows you to search/filter the apps included in SetApp and open the app page in your browser or open the app if installed.
+This workflow is currently using an apps.json file that I formatted from their page: https://setapp.com/apps
+
+![Setapp Search Demo](media/SetApp_App_Search.webp)
+
+The apps main features include:
+
+* Fetches icons and app information from included JSON file
+* Search/filter all the apps currently listed as included
+* Open page in browser about selected app
+* Open DeepLink of app using UID ie: setapp://launch/12345
+* ⇧ - If app is installed alfred will just open the selected app.
+* ⇧ - If app Not installed show the information/install page in SetApp application.
+* ⌘ - show the platforms this app works on
+* ⌥ - show the Rating of the selected app
+* ⌘+⌥ - Show both the Platforms and the ratings
+
+TODO - make JSON file download via an API or some other way rather than including in workflow.
+TODO - filter by platform i.e. iOS | macOS
+TODO - sort by rating i.e. percentage out of 100
+
+
+Don't have SetApp? Use this link for 1 Month Free to try it / subscribe:
+
+https://go.setapp.com/invite/ttyd3ssu
+
+
+SetApp is produced/owned by MacPaw - https://setapp.com
+
+This workflow is under the MIT License.
+
+I have found many of the apps in SetApp extremely useful.
+
+- CDoug</string>
+        <key>uidata</key>
+        <dict>
+            <key>1938E42D-F446-4CDA-9B1C-2654DC417B5B</key>
+            <dict>
+                <key>xpos</key>
+                <real>30</real>
+                <key>ypos</key>
+                <real>15</real>
+            </dict>
+            <key>A34DAC41-1DCD-4F81-A635-C6CCEFF38027</key>
+            <dict>
+                <key>colorindex</key>
+                <integer>5</integer>
+                <key>note</key>
+                <string>Open the URL on SetApp.com describing the App</string>
+                <key>xpos</key>
+                <real>260</real>
+                <key>ypos</key>
+                <real>15</real>
+            </dict>
+            <key>EA97ECBA-9A6D-40BF-91D7-F0E1F1C850DC</key>
+            <dict>
+                <key>colorindex</key>
+                <integer>8</integer>
+                <key>note</key>
+                <string>Open the DeepLink in SetApp Application or if installed Open the App.</string>
+                <key>xpos</key>
+                <real>260</real>
+                <key>ypos</key>
+                <real>175</real>
+            </dict>
+        </dict>
+        <key>userconfigurationconfig</key>
+        <array>
+            <dict>
+                <key>config</key>
+                <dict>
+                    <key>default</key>
+                    <string>seta</string>
+                    <key>placeholder</key>
+                    <string>Customize the Keyword</string>
+                    <key>required</key>
+                    <true/>
+                    <key>trim</key>
+                    <true/>
+                </dict>
+                <key>description</key>
+                <string>Customize the Keyword</string>
+                <key>label</key>
+                <string>Keyword</string>
+                <key>type</key>
+                <string>textfield</string>
+                <key>variable</key>
+                <string>keyword</string>
+            </dict>
+        </array>
+        <key>variables</key>
+        <dict>
+            <key>APP_JSON_PATH</key>
+            <string>./apps.json</string>
+        </dict>
+        <key>version</key>
+        <string>0.0.0.1</string>
+        <key>webaddress</key>
+        <string>https://github.com/cdouglasnet/alfred_setapp_search</string>
+    </dict>
+</plist>

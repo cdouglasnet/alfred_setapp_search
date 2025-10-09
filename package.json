@@ -1,0 +1,21 @@
+{
+  "name": "alfred-setapp-search",
+  "version": "0.1.0",
+  "description": "Alfred workflow for searching SetApp applications",
+  "scripts": {
+    "test": ".venv/bin/python3 -m pytest tests/",
+    "build": "gulp build",
+    "dev": "gulp dev",
+    "lint": ".venv/bin/python3 -m pylint src/script/*.py",
+    "update-readme": "gulp update-readme-plist",
+    "fix-plist": "gulp fix-plist",
+    "install-python-deps": ".venv/bin/python3 -m pip install requests beautifulsoup4 lxml"
+  },
+  "devDependencies": {
+    "del": "^6.1.1",
+    "eslint": "^8.57.0",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^5.1.0",
+    "xml2js": "^0.6.2"
+  }
+}

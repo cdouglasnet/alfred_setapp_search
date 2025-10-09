@@ -1,0 +1,949 @@
+{
+  "items": [
+    {
+      "uid": 742,
+      "title": "Supercharge",
+      "subtitle": "Supercharge your Mac",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/742/44606/icon-1756970745-68b93ef945dcc.png",
+      "arg": "https://setapp.com/apps/supercharge",
+      "rating": 100,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 321,
+      "title": "CleanShot X",
+      "subtitle": "Take better screenshots and GIFs",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/321/44154/icon-1752575164-68762cbc45288.png",
+      "arg": "https://setapp.com/apps/cleanshot",
+      "rating": 99,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 431,
+      "title": "TextSniper",
+      "subtitle": "Extract text from visuals",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/431/40216/icon-1726504026-66e85c5a39ab4.png",
+      "arg": "https://setapp.com/apps/textsniper",
+      "rating": 99,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 186,
+      "title": "Numi",
+      "subtitle": "Calculate and convert anything",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/186/7868/icon-1681314493-6436d2bdefebe.png",
+      "arg": "https://setapp.com/apps/numi",
+      "rating": 99,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 67,
+      "title": "Ulysses",
+      "subtitle": "Write and publish from one app",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/67/44389/icon-1754985033-689af249ca791.png",
+      "arg": "https://setapp.com/apps/ulysses",
+      "rating": 99,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 297,
+      "title": "TablePlus",
+      "subtitle": "Query, edit, and manage databases",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/297/44594/icon-1756890004-68b8039472294.png",
+      "arg": "https://setapp.com/apps/tableplus",
+      "rating": 99,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 320,
+      "title": "MindNode Classic",
+      "subtitle": "Mind map and brainstorm ideas",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/320/44317/icon-1754044951-688c9a1700ece.png",
+      "arg": "https://setapp.com/apps/mindnode",
+      "rating": 99,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 330,
+      "title": "Yoink",
+      "subtitle": "Improve drag and drop",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/330/44285/icon-1753885658-688a2bda5f2a1.png",
+      "arg": "https://setapp.com/apps/yoink",
+      "rating": 99,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 612,
+      "title": "Clop",
+      "subtitle": "Shrink images, video, PDFs",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/612/44495/icon-1755774490-68a6fe1aa0717.png",
+      "arg": "https://setapp.com/apps/clop",
+      "rating": 91,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 266,
+      "title": "Focus 2",
+      "subtitle": "Block websites and apps",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/266/44325/icon-1754278148-68902904b8617.png",
+      "arg": "https://setapp.com/apps/focus",
+      "rating": 91,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 487,
+      "title": "Almighty",
+      "subtitle": "Unlock 50+ Mac shortcuts",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/487/42639/icon-1747515066-6828f6ba09c10.png",
+      "arg": "https://setapp.com/apps/almighty",
+      "rating": 91,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 628,
+      "title": "Muse",
+      "subtitle": "Put ideas on a single canvas",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/628/44511/icon-1755914767-68a9220fc550a.png",
+      "arg": "https://setapp.com/apps/muse",
+      "rating": 91,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 609,
+      "title": "Teleprompter App",
+      "subtitle": "Record video with teleprompter",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/609/44008/icon-1751013832-685e59c84a5de.png",
+      "arg": "https://setapp.com/apps/teleprompter-app",
+      "rating": 91,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 583,
+      "title": "TypingMind",
+      "subtitle": "Use new UI to chat with AI",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/583/40440/icon-1727938430-66fe3f7ee68ac.png",
+      "arg": "https://setapp.com/apps/typingmind",
+      "rating": 90,
+      "platforms": "Mac, Web"
+    },
+    {
+      "uid": 719,
+      "title": "NotchNook",
+      "subtitle": "Control Mac from the notch",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/719/44413/icon-1755118216-689cfa88cf1cf.png",
+      "arg": "https://setapp.com/apps/notchnook",
+      "rating": 90,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 566,
+      "title": "Luminar Neo",
+      "subtitle": "Improve your photos like a pro",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/566/44192/icon-1752850170-687a5efa43d68.png",
+      "arg": "https://setapp.com/apps/luminar-neo",
+      "rating": 90,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 240,
+      "title": "ChatMate for WhatsApp",
+      "subtitle": "Personalize WhatsApp",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/240/40674/icon-1729783133-671a655d54dbe.png",
+      "arg": "https://setapp.com/apps/chatmate-for-whatsapp",
+      "rating": 90,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 299,
+      "title": "CameraBag Pro",
+      "subtitle": "Edit photos and videos",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/299/42519/icon-1746576494-681aa46e5c360.png",
+      "arg": "https://setapp.com/apps/camerabag-pro",
+      "rating": 90,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 424,
+      "title": "Moment",
+      "subtitle": "Create countdown events",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/424/40407/icon-1727793531-66fc097bc6429.png",
+      "arg": "https://setapp.com/apps/moment",
+      "rating": 90,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 504,
+      "title": "Daily",
+      "subtitle": "Track time easily",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/504/42708/icon-1748198319-683363afddb8c.png",
+      "arg": "https://setapp.com/apps/daily",
+      "rating": 90,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 433,
+      "title": "ClearVPN",
+      "subtitle": "Use an intuitive VPN",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/433/44088/icon-1756216760-68adbdb8156a0.png",
+      "arg": "https://setapp.com/apps/clearvpn",
+      "rating": 89,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 518,
+      "title": "Nitro PDF Pro",
+      "subtitle": "Work with your PDFs",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/518/44279/icon-1753891430-688a4266da995.png",
+      "arg": "https://setapp.com/apps/nitro-pdf-pro",
+      "rating": 89,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 575,
+      "title": "Spark Mail",
+      "subtitle": "Manage emails easier",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/575/44597/icon-1756914410-68b862ea3b85e.png",
+      "arg": "https://setapp.com/apps/spark-mail",
+      "rating": 89,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 246,
+      "title": "World Clock Pro",
+      "subtitle": "Work across time zones",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/246/41965/icon-1741045317-67c63e4508341.png",
+      "arg": "https://setapp.com/apps/world-clock-pro",
+      "rating": 89,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 512,
+      "title": "iBoysoft MagicMenu",
+      "subtitle": "Expand your Mac’s right click",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/512/42345/icon-1744773554-67ff21b228833.png",
+      "arg": "https://setapp.com/apps/iboysoft-magicmenu",
+      "rating": 89,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 606,
+      "title": "PDF Pals",
+      "subtitle": "Chat with your PDFs",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/606/42481/icon-1746107539-68137c9375583.png",
+      "arg": "https://setapp.com/apps/pdf-pals",
+      "rating": 89,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 541,
+      "title": "WallCal",
+      "subtitle": "Pin clear calendar to desktop",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/541/43969/icon-1750639576-6858a3d8e8ad6.png",
+      "arg": "https://setapp.com/apps/wallcal",
+      "rating": 89,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 1774,
+      "title": "Tiny Shield",
+      "subtitle": "Track your Mac connections",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/1774/44539/icon-1756212259-68adac2384ed2.png",
+      "arg": "https://setapp.com/apps/tiny-shield",
+      "rating": 89,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 528,
+      "title": "WidgetWall",
+      "subtitle": "Add widgets to Mac desktop",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/528/44486/icon-1755731273-68a655498aff8.png",
+      "arg": "https://setapp.com/apps/widget-wall",
+      "rating": 88,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 521,
+      "title": "Expenses",
+      "subtitle": "Track your spending",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/521/44604/icon-1756941156-68b8cb64769a0.png",
+      "arg": "https://setapp.com/apps/expenses",
+      "rating": 88,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 699,
+      "title": "Focused Work",
+      "subtitle": "Work with timers",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/699/42759/icon-1748710157-683b330d4602c.png",
+      "arg": "https://setapp.com/apps/focused-work-mac",
+      "rating": 88,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 576,
+      "title": "Elephas",
+      "subtitle": "Manage knowledge with AI",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/576/42780/icon-1748860950-683d8016cd020.png",
+      "arg": "https://setapp.com/apps/elephas",
+      "rating": 87,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 393,
+      "title": "Batteries",
+      "subtitle": "Track all devices&#039; battery levels",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/393/42767/icon-1748785895-683c5ae74dbc9.png",
+      "arg": "https://setapp.com/apps/batteries",
+      "rating": 87,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 337,
+      "title": "iMeetingX",
+      "subtitle": "Run meetings effectively",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/337/9518/icon-1702884273-657ff3b16c0a6.png",
+      "arg": "https://setapp.com/apps/imeetingx",
+      "rating": 87,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 175,
+      "title": "Capto",
+      "subtitle": "Create screen recordings",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/175/42078/icon-1742193995-67d7c54b2f8f8.png",
+      "arg": "https://setapp.com/apps/capto",
+      "rating": 86,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 384,
+      "title": "iBoysoft NTFS for Mac",
+      "subtitle": "Read/write to NTFS drives",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/384/40354/icon-1727496466-66f7811273225.png",
+      "arg": "https://setapp.com/apps/iboysoft-ntfs-for-mac",
+      "rating": 86,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 546,
+      "title": "Vivid",
+      "subtitle": "Double display brightness",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/546/44368/icon-1754644441-6895bfd99ccf0.png",
+      "arg": "https://setapp.com/apps/vivid",
+      "rating": 86,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 210,
+      "title": "Get Backup Pro",
+      "subtitle": "Back up only essential files",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/210/9272/icon-1699433154-654b4ac208ada.png",
+      "arg": "https://setapp.com/apps/get-backup-pro",
+      "rating": 86,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 584,
+      "title": "Plus",
+      "subtitle": "Work with text using AI",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/584/42484/icon-1746174118-681480a6e0e16.png",
+      "arg": "https://setapp.com/apps/plus",
+      "rating": 86,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 453,
+      "title": "SheetPlanner",
+      "subtitle": "Plan and track project progress",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/453/44600/icon-1756922167-68b88137baf5b.png",
+      "arg": "https://setapp.com/apps/sheetplanner",
+      "rating": 86,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 752,
+      "title": "KeyCue",
+      "subtitle": "Work faster with shortcuts",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/752/42675/icon-1749043738-68404a1a28135.png",
+      "arg": "https://setapp.com/apps/keycue",
+      "rating": 86,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 700,
+      "title": "Focus",
+      "subtitle": "Block websites and social media",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/700/28918/icon-1716573034-6650d36a66766.png",
+      "arg": "https://setapp.com/apps/focus-mac",
+      "rating": 86,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 336,
+      "title": "AnyDroid",
+      "subtitle": "Move files between Mac and Android",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/336/41846/icon-1739786426-67b308ba38644.png",
+      "arg": "https://setapp.com/apps/anytrans-for-android",
+      "rating": 85,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 406,
+      "title": "PliimPRO",
+      "subtitle": "Share screen distraction-free",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/406/9104/icon-1697480465-652d7f11a4cad.png",
+      "arg": "https://setapp.com/apps/pliimpro",
+      "rating": 85,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 502,
+      "title": "MonsterWriter",
+      "subtitle": "Write complex texts easily",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/502/42757/icon-1748691704-683aeaf8555d7.png",
+      "arg": "https://setapp.com/apps/monsterwriter",
+      "rating": 85,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 764,
+      "title": "Substage",
+      "subtitle": "Control Finder with natural language",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/764/44363/icon-1754599484-6895103c60712.png",
+      "arg": "https://setapp.com/apps/substage",
+      "rating": 85,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 593,
+      "title": "Clobbr",
+      "subtitle": "Load test API endpoints",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/593/41323/icon-1734653161-6764b4e997d42.png",
+      "arg": "https://setapp.com/apps/clobbr",
+      "rating": 85,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 749,
+      "title": "Invoice Rex",
+      "subtitle": "Edit and track invoices",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/749/44568/icon-1756465202-68b188321a2dc.png",
+      "arg": "https://setapp.com/apps/invoice-rex",
+      "rating": 85,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 307,
+      "title": "Canary Mail",
+      "subtitle": "Write and manage emails",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/307/44458/icon-1755505545-68a2e389d03e2.png",
+      "arg": "https://setapp.com/apps/canary-mail",
+      "rating": 84,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 276,
+      "title": "Rocket Typist",
+      "subtitle": "Save time typing with text snippets",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/276/44540/icon-1756247885-68ae374d3fac1.png",
+      "arg": "https://setapp.com/apps/rocket-typist",
+      "rating": 84,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 623,
+      "title": "Calendars",
+      "subtitle": "Track tasks, events, and plans",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/623/44395/icon-1755011825-689b5af155329.png",
+      "arg": "https://setapp.com/apps/calendars",
+      "rating": 84,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 505,
+      "title": "GreenBooks",
+      "subtitle": "Manage money easily",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/505/42101/icon-1742439491-67db844380d13.png",
+      "arg": "https://setapp.com/apps/greenbooks",
+      "rating": 84,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 436,
+      "title": "Hustl",
+      "subtitle": "Create timelapses of your screen",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/436/5289/icon-1637696825-619d453928e34.png",
+      "arg": "https://setapp.com/apps/hustl",
+      "rating": 84,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 296,
+      "title": "IM+",
+      "subtitle": "Bring all messengers into one",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/296/3685/icon-1605729873-5fb57e510c414.png",
+      "arg": "https://setapp.com/apps/im+",
+      "rating": 83,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 635,
+      "title": "Spellar AI",
+      "subtitle": "Smart Meeting Notes with AI",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/635/44432/icon-1755253434-689f0aba4851a.png",
+      "arg": "https://setapp.com/apps/spellar-ai",
+      "rating": 83,
+      "platforms": "Mac, Web"
+    },
+    {
+      "uid": 744,
+      "title": "Smmall Cloud",
+      "subtitle": "Share files and boost your brand",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/744/43918/icon-1750185708-6851b6ec95e90.png",
+      "arg": "https://setapp.com/apps/smmall-cloud",
+      "rating": 83,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 451,
+      "title": "Mimir",
+      "subtitle": "Play and manage podcasts",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/451/43827/icon-1749222527-6843047f5921c.png",
+      "arg": "https://setapp.com/apps/mimir",
+      "rating": 83,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 1771,
+      "title": "FocuSee",
+      "subtitle": "Record screen and polish video",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/1771/44353/icon-1755165779-689db45352e23.png",
+      "arg": "https://setapp.com/apps/focusee",
+      "rating": 83,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 530,
+      "title": "UpLife",
+      "subtitle": "Your self-care assistant",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/530/44468/icon-68a425b995f32.jpg",
+      "arg": "https://setapp.com/apps/uplife-mental-health-therapy-ios",
+      "rating": 83,
+      "platforms": "iOS"
+    },
+    {
+      "uid": 592,
+      "title": "MurmurType",
+      "subtitle": "Transcribe your speech",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/592/44382/icon-1754906948-6899c14465af5.png",
+      "arg": "https://setapp.com/apps/murmur",
+      "rating": 82,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 311,
+      "title": "DCommander",
+      "subtitle": "Manage files in a dual-pane view",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/311/41384/icon-1735205346-676d21e2e8634.png",
+      "arg": "https://setapp.com/apps/dcommander",
+      "rating": 82,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 477,
+      "title": "Speeko",
+      "subtitle": "Get better at public speaking",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/477/44362/icon-1754595540-689500d474ee8.png",
+      "arg": "https://setapp.com/apps/speeko",
+      "rating": 82,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 760,
+      "title": "ByDesign",
+      "subtitle": "Organize your work and life",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/760/44440/icon-1755479434-68a27d8a53114.png",
+      "arg": "https://setapp.com/apps/bydesign",
+      "rating": 82,
+      "platforms": "Mac, iOS, Web"
+    },
+    {
+      "uid": 350,
+      "title": "Silenz",
+      "subtitle": "Focus mode sound",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/350/8914/icon-1695550446-65100beee3749.png",
+      "arg": "https://setapp.com/apps/silenz",
+      "rating": 82,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 711,
+      "title": "AppWage",
+      "subtitle": "Track your app earnings",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/711/42286/icon-1744026714-67f3bc5a93dfb.png",
+      "arg": "https://setapp.com/apps/appwage",
+      "rating": 82,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 565,
+      "title": "MoneyWiz 2025",
+      "subtitle": "Budget and manage bills",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/565/44561/icon-1756451642-68b1533a668dd.png",
+      "arg": "https://setapp.com/apps/moneywiz",
+      "rating": 81,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 697,
+      "title": "Pie Menu",
+      "subtitle": "Access app actions in a click",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/697/40821/icon-1730974322-672c927219414.png",
+      "arg": "https://setapp.com/apps/pie-menu",
+      "rating": 81,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 732,
+      "title": "mSecure",
+      "subtitle": "Store and sync passwords",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/732/41618/icon-1737736000-6793bf40b30b3.png",
+      "arg": "https://setapp.com/apps/msecure",
+      "rating": 81,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 691,
+      "title": "WhisperTranscribe",
+      "subtitle": "Turn voice into text content",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/691/44538/icon-1756194710-68ad679685620.png",
+      "arg": "https://setapp.com/apps/whisper-transcribe",
+      "rating": 80,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 370,
+      "title": "JustStream",
+      "subtitle": "Mirror Mac screen to TV",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/370/42243/icon-1743592902-67ed1dc64ffe1.png",
+      "arg": "https://setapp.com/apps/juststream",
+      "rating": 80,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 735,
+      "title": "Boom",
+      "subtitle": "Level-up your video calls",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/735/42783/icon-1748875965-683dbabdd428d.png",
+      "arg": "https://setapp.com/apps/boom",
+      "rating": 79,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 193,
+      "title": "Remote Mouse",
+      "subtitle": "Control Mac from your phone",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/193/43854/icon-1751120825-685ffbb93f57e.png",
+      "arg": "https://setapp.com/apps/remote-mouse",
+      "rating": 79,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 720,
+      "title": "iShowU",
+      "subtitle": "Record screen on Mac",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/720/44375/icon-1754729200-68970af0667ff.png",
+      "arg": "https://setapp.com/apps/ishowu",
+      "rating": 79,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 381,
+      "title": "Backtrack",
+      "subtitle": "Record audio from the past",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/381/41528/icon-1736899813-6786fce564982.png",
+      "arg": "https://setapp.com/apps/backtrack",
+      "rating": 78,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 326,
+      "title": "Taskheat",
+      "subtitle": "Learn to prioritize tasks",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/326/41099/icon-1732998743-674b7657aad16.png",
+      "arg": "https://setapp.com/apps/taskheat",
+      "rating": 78,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 737,
+      "title": "FreeYourMusic",
+      "subtitle": "Transfer your playlists",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/737/44101/icon-1751970438-686cf286ecbe4.png",
+      "arg": "https://setapp.com/apps/freeyourmusic",
+      "rating": 78,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 201,
+      "title": "Simon",
+      "subtitle": "Control and troubleshoot servers",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/201/7859/icon-1681321139-6436ecb3343c6.png",
+      "arg": "https://setapp.com/apps/simon",
+      "rating": 78,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 328,
+      "title": "AnyTrans for iOS",
+      "subtitle": "Move files between macOS and iOS",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/328/42580/icon-1747015439-6821570f0d559.png",
+      "arg": "https://setapp.com/apps/anytrans",
+      "rating": 77,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 587,
+      "title": "Secrets 4",
+      "subtitle": "Store and manage passwords",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/587/42673/icon-1747819273-682d9b0983304.png",
+      "arg": "https://setapp.com/apps/secrets",
+      "rating": 77,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 759,
+      "title": "Chimeful",
+      "subtitle": "Improve focus and stay mindful",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/759/44379/icon-1754898842-6899a19a22a38.png",
+      "arg": "https://setapp.com/apps/chimeful",
+      "rating": 77,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 308,
+      "title": "TeaCode",
+      "subtitle": "Speed up coding with expanders",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/308/40239/icon-1726668573-66eadf1df1cc3.png",
+      "arg": "https://setapp.com/apps/teacode",
+      "rating": 76,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 235,
+      "title": "Lacona",
+      "subtitle": "Tell your Mac what to do",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/235/7221/icon-1671243506-639d26f20c993.png",
+      "arg": "https://setapp.com/apps/lacona",
+      "rating": 75,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 314,
+      "title": "Moonitor",
+      "subtitle": "Receive live updates on crypto",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/314/8672/icon-1706610205-65b8ce1de936e.png",
+      "arg": "https://setapp.com/apps/moonitor",
+      "rating": 75,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 363,
+      "title": "Coherence X",
+      "subtitle": "Turn websites into apps",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/363/44623/icon-1757283923-68be065395a6d.png",
+      "arg": "https://setapp.com/apps/coherence-pro",
+      "rating": 74,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 688,
+      "title": "Keep It Shot",
+      "subtitle": "Rename screenshots with AI",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/688/41516/icon-1736865151-6786757f32e88.png",
+      "arg": "https://setapp.com/apps/keep-it-shot",
+      "rating": 74,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 581,
+      "title": "CleanPresenter",
+      "subtitle": "Present a single window",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/581/40679/icon-1729846239-671b5bdf41873.png",
+      "arg": "https://setapp.com/apps/cleanpresenter",
+      "rating": 73,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 294,
+      "title": "Spotless",
+      "subtitle": "Auto-hide files and clean up",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/294/44133/icon-1752338690-68729102eb82a.png",
+      "arg": "https://setapp.com/apps/spotless",
+      "rating": 73,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 594,
+      "title": "Numerics",
+      "subtitle": "Monitor your business data",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/594/42160/icon-1742954658-67e360a2042df.png",
+      "arg": "https://setapp.com/apps/numerics",
+      "rating": 73,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 545,
+      "title": "Filmage Editor",
+      "subtitle": "Easily edit videos like a pro",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/545/44119/icon-1752199863-687072b73f725.png",
+      "arg": "https://setapp.com/apps/filmage-editor",
+      "rating": 71,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 619,
+      "title": "Subjects",
+      "subtitle": "Track class schedule, homework",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/619/41415/icon-1735670378-67743a6a3647c.png",
+      "arg": "https://setapp.com/apps/subjects",
+      "rating": 71,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 517,
+      "title": "AdLock",
+      "subtitle": "Block annoying browser ads",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/517/44575/icon-1756543899-68b2bb9bd5479.png",
+      "arg": "https://setapp.com/apps/adlock",
+      "rating": 70,
+      "platforms": "Mac, iOS"
+    },
+    {
+      "uid": 340,
+      "title": "Unite",
+      "subtitle": "Create an app from a website",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/340/44227/icon-1753296213-68812d5504d40.png",
+      "arg": "https://setapp.com/apps/unite",
+      "rating": 68,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 618,
+      "title": "Headway",
+      "subtitle": "Get summaries for nonfiction",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/618/44616/icon-68ba8f2d7be81.jpg",
+      "arg": "https://setapp.com/apps/headway",
+      "rating": 68,
+      "platforms": "iOS, Web"
+    },
+    {
+      "uid": 494,
+      "title": "Mental Walk",
+      "subtitle": "Reflect on your life",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/494/6892/icon-1666616857-63568e19275d5.png",
+      "arg": "https://setapp.com/apps/mentalwalk",
+      "rating": 67,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 488,
+      "title": "Tab Finder",
+      "subtitle": "Tabs from all browsers in one spot",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/488/9319/icon-1700040755-65549033172ca.png",
+      "arg": "https://setapp.com/apps/tabfinder",
+      "rating": 66,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 238,
+      "title": "n-Track Studio",
+      "subtitle": "Record and edit music on Mac",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/238/44609/icon-1756995457-68b99f81105bb.png",
+      "arg": "https://setapp.com/apps/n-track-studio",
+      "rating": 66,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 729,
+      "title": "Sidebar",
+      "subtitle": "Try a Dock alternative",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/729/44390/icon-1754989285-689b02e5b54d0.png",
+      "arg": "https://setapp.com/apps/sidebar",
+      "rating": 64,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 1778,
+      "title": "iBoysoft Data Recovery",
+      "subtitle": "Recover deleted or lost files",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/1778/44223/icon-1755096008-689ca3c8d5b11.png",
+      "arg": "https://setapp.com/apps/iboysoft-data-recovery",
+      "rating": 63,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 738,
+      "title": "SwiftyLaunch",
+      "subtitle": "Build iOS apps faster",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/738/42635/icon-1747402833-68274051f26a0.png",
+      "arg": "https://setapp.com/apps/swiftylaunch",
+      "rating": 62,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 516,
+      "title": "TaoGit",
+      "subtitle": "Streamline your work with Git",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/516/40716/icon-1730208153-6720e19925f0f.png",
+      "arg": "https://setapp.com/apps/taogit",
+      "rating": 61,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 399,
+      "title": "CleanMy®Phone",
+      "subtitle": "Declutter your iPhone",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/399/44605/icon-68b93da9bed50.jpg",
+      "arg": "https://setapp.com/apps/gemini-photos",
+      "rating": 59,
+      "platforms": "iOS"
+    },
+    {
+      "uid": 535,
+      "title": "Launcher with Multiple Widgets",
+      "subtitle": "Customize your home screen",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/535/44092/icon-686cc6abac326.jpg",
+      "arg": "https://setapp.com/apps/launcher-with-multiple-widgets-ios",
+      "rating": 57,
+      "platforms": "iOS"
+    },
+    {
+      "uid": 717,
+      "title": "Voice Dream Reader",
+      "subtitle": "Listen to your texts",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/717/41922/icon-1740505258-67be00aa89d1a.png",
+      "arg": "https://setapp.com/apps/voice-dream-reader",
+      "rating": 47,
+      "platforms": "Mac"
+    },
+    {
+      "uid": 709,
+      "title": "Leave Me Alone",
+      "subtitle": "Manage email subscriptions",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/709/main/icon-7777ffdacb9dc.png",
+      "arg": "https://setapp.com/apps/leave-me-alone",
+      "rating": 0,
+      "platforms": "Web"
+    },
+    {
+      "uid": 607,
+      "title": "Ready to Send",
+      "subtitle": "Generate draft email replies",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/607/main/icon-65719fa98f5e6.png",
+      "arg": "https://setapp.com/apps/ready-to-send",
+      "rating": 0,
+      "platforms": "Web"
+    }
+  ]
+}
