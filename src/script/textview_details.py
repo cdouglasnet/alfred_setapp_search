@@ -49,6 +49,37 @@ def get_cached_icon_path(icon_url: str) -> str:
         return local_path
     return ""
 
+def build_mods_info(arg_url, rating, platforms, uid):
+    """Build modifier key information for display in TextView - adapted from main.py"""
+    rating_txt = f"Rating: {rating}/100" if isinstance(rating, (int, float)) else "Rating: N/A"
+    platforms_txt = f"Platforms: {platforms}" if platforms else "Platforms: N/A"
+
+    mods_info = []
+
+    # Enter → Open SetApp page
+    if arg_url:
+        mods_info.append("• **Enter**: Open SetApp page in browser")
+        mods_info.append(f"  → {arg_url}")
+
+    # Alt → Show rating
+    mods_info.append(f"• **⌥ (Option)**: Show rating information")
+    mods_info.append(f"  → {rating_txt}")
+
+    # Cmd → Show platforms
+    mods_info.append(f"• **⌘ (Command)**: Show platform information")
+    mods_info.append(f"  → {platforms_txt}")
+
+    # Cmd+Alt → Show both
+    mods_info.append(f"• **⌘⌥ (Cmd+Option)**: Show both rating and platforms")
+    mods_info.append(f"  → {rating_txt} · {platforms_txt}")
+
+    # Shift → Open SetApp deep link
+    if uid is not None and str(uid).strip():
+        mods_info.append(f"• **⇧ (Shift)**: Launch via SetApp deep link")
+        mods_info.append(f"  → setapp://launch/{uid}")
+
+    return mods_info
+
 def get_app_details_textview():
     """
     Generate Alfred TextView JSON response with detailed app information
@@ -78,7 +109,9 @@ def get_app_details_textview():
             response_lines.append(f"# {title}")
         else:
             response_lines.append(f"# 📱 {title}")
-        response_lines.append("=" * (len(title) + 2))
+        response_lines.append("\n")
+        response_lines.append("=" * (len(title) + 6))
+        response_lines.append("\n")
 
     if subtitle:
         response_lines.append(f"📝 {subtitle}")
@@ -89,9 +122,11 @@ def get_app_details_textview():
         try:
             rating_num = int(rating)
             stars = "⭐" * (rating_num // 20)  # Convert to 5-star scale
-            response_lines.append(f"⭐ Rating: {rating}/100 {stars}")
+            response_lines.append(f"Rating: {rating}/100 {stars}")
         except ValueError:
-            response_lines.append(f"⭐ Rating: {rating}")
+            response_lines.append(f"Rating: {rating}")
+
+    response_lines.append("\n")
 
     if platforms:
         response_lines.append(f"💻 Platforms: {platforms}")
@@ -101,23 +136,31 @@ def get_app_details_textview():
     # URLs and links
     if arg_url:
         response_lines.append(f"🌐 SetApp Page: {arg_url}")
+        response_lines.append("\n")
 
     if deeplink:
         response_lines.append(f"🚀 Deep Link: {deeplink}")
+        response_lines.append("\n")
 
-    if icon_src:
-        response_lines.append(f"🖼️  Icon URL: {icon_src}")
+    # if icon_src:
+    #     response_lines.append(f"🖼️  Icon URL: {icon_src}")
+    #     response_lines.append("\n")
 
     if uid:
         response_lines.append(f"🔢 App ID: {uid}")
+        response_lines.append("\n")
+
+    # Add modifier key information
+    response_lines.append("# 🔑 Modifier Key Actions:\n")
+    mods_info = build_mods_info(arg_url, rating, platforms, uid)
+    response_lines.extend(mods_info)
 
     # Add usage instructions
     response_lines.append("")
-    response_lines.append("📋 Actions:")
-    response_lines.append("• Enter: Open SetApp page in browser")
-    response_lines.append("• ⇧ + Enter: Launch app via SetApp deep link")
-    response_lines.append("• ⌘ + Enter: View platform information")
-    response_lines.append("• ⌥ + Enter: View app rating")
+    response_lines.append("# 📋 Actions:\n")
+    response_lines.append("### Enter: Open SetApp page in browser\n")
+    response_lines.append("### ⇧ + Enter: Launch app via SetApp deep link\n")
+    response_lines.append("### ⌘ + Enter: Start Over\n")
 
     response_text = "\n".join(response_lines)
 
