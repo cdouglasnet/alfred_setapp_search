@@ -96,7 +96,7 @@ jobs:
         npm run build
 
     - name: Upload workflow artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: alfred-setapp-search-workflow-${{ github.ref_name }}
         path: dist/alfred-setapp-search.alfredworkflow
