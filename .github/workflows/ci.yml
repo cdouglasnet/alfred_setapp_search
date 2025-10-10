@@ -6,6 +6,13 @@ on:
   pull_request:
     branches: [ main ]
 
+# Add permissions for the workflow
+permissions:
+  contents: write
+  packages: write
+  issues: write
+  pull-requests: write
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -102,18 +109,37 @@ jobs:
         path: dist/alfred-setapp-search.alfredworkflow
         if-no-files-found: error
 
+    - name: Generate unique tag for stable release
+      if: github.ref == 'refs/heads/main'
+      id: stable_tag
+      run: |
+        TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+        TAG="v${{ github.run_number }}-${TIMESTAMP}"
+        echo "tag=${TAG}" >> $GITHUB_OUTPUT
+        echo "Generated stable tag: ${TAG}"
+
+    - name: Generate unique tag for beta release
+      if: github.ref == 'refs/heads/dev'
+      id: beta_tag
+      run: |
+        TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+        TAG="v${{ github.run_number }}-beta-${TIMESTAMP}"
+        echo "tag=${TAG}" >> $GITHUB_OUTPUT
+        echo "Generated beta tag: ${TAG}"
+
     - name: Create stable release (main branch)
       if: github.ref == 'refs/heads/main'
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
-        tag_name: v${{ github.run_number }}
-        name: Release v${{ github.run_number }}
+        tag_name: ${{ steps.stable_tag.outputs.tag }}
+        name: Release ${{ steps.stable_tag.outputs.tag }}
         draft: false
         prerelease: false
+        make_latest: true
         files: |
           dist/alfred-setapp-search.alfredworkflow
         body: |
-          ## Alfred SetApp Search Workflow - Release v${{ github.run_number }}
+          ## Alfred SetApp Search Workflow - Release ${{ steps.stable_tag.outputs.tag }}
           
           ### Changes
           - Built from commit ${{ github.sha }}
@@ -135,16 +161,17 @@ jobs:
 
     - name: Create beta release (dev branch)
       if: github.ref == 'refs/heads/dev'
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
-        tag_name: v${{ github.run_number }}-beta
-        name: Beta Release v${{ github.run_number }}-beta
+        tag_name: ${{ steps.beta_tag.outputs.tag }}
+        name: Beta Release ${{ steps.beta_tag.outputs.tag }}
         draft: false
         prerelease: true
+        make_latest: false
         files: |
           dist/alfred-setapp-search.alfredworkflow
         body: |
-          ## Alfred SetApp Search Workflow - Beta v${{ github.run_number }}-beta
+          ## Alfred SetApp Search Workflow - Beta ${{ steps.beta_tag.outputs.tag }}
           
           ### ⚠️ Beta Release
           This is a **beta release** built from the development branch. It may contain experimental features or bugs.
