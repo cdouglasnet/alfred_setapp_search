@@ -1,0 +1,24 @@
+[
+  {
+    "name": "1Password 7 - Password Manager",
+    "description": "The world's most-loved password manager.",
+    "icon": "https://setapp.com/apps/1password-7/icon",
+    "url": "https://setapp.com/apps/1password-7",
+    "category": "Security"
+  },
+  {
+    "name": "CleanMyMac X",
+    "description": "Make your Mac fast and secure.",
+    "icon": "https://setapp.com/apps/cleanmymac/icon",
+    "url": "https://setapp.com/apps/cleanmymac",
+    "category": "System"
+  },
+  {
+    "name": "Sketch",
+    "description": "Design. Collaborate. Prototype. All in one place.",
+    "icon": "https://setapp.com/apps/sketch/icon",
+    "url": "https://setapp.com/apps/sketch",
+    "category": "Design"
+  }
+]
+

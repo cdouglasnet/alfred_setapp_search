@@ -1,0 +1,239 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main ]
+
+# Add permissions for the workflow
+permissions:
+  contents: write
+  packages: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.10", "3.11", "3.12", "3.13", "3.14"]
+        node-version: [18, 20]
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Set up Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        # Remove cache since we don't have lock file
+
+    - name: Create virtual environment
+      run: |
+        python -m venv .venv
+        source .venv/bin/activate
+        echo "VIRTUAL_ENV=$VIRTUAL_ENV" >> $GITHUB_ENV
+        echo "$VIRTUAL_ENV/bin" >> $GITHUB_PATH
+
+    - name: Install Python dependencies
+      run: |
+        source .venv/bin/activate
+        python -m pip install --upgrade pip
+        pip install pytest requests beautifulsoup4 lxml
+
+    - name: Install Node.js dependencies
+      run: npm install
+
+    - name: Run Python tests
+      run: |
+        source .venv/bin/activate
+        python -m pytest tests/ -v
+
+    - name: Run Node.js linting (if applicable)
+      run: |
+        if [ -f "package.json" ] && npm list eslint > /dev/null 2>&1; then
+          npm run lint || echo "No lint script found"
+        fi
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Set up Node.js 20
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        # Remove cache since we don't have lock file
+
+    - name: Create virtual environment
+      run: |
+        python -m venv .venv
+        source .venv/bin/activate
+        echo "VIRTUAL_ENV=$VIRTUAL_ENV" >> $GITHUB_ENV
+        echo "$VIRTUAL_ENV/bin" >> $GITHUB_PATH
+
+    - name: Install Python dependencies
+      run: |
+        source .venv/bin/activate
+        python -m pip install --upgrade pip
+        pip install pytest requests beautifulsoup4 lxml
+
+    - name: Install Node.js dependencies
+      run: npm install
+
+    - name: Build Alfred workflow
+      run: |
+        source .venv/bin/activate
+        npm run build
+
+    - name: Upload workflow artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: alfred-setapp-search-workflow-${{ github.ref_name }}
+        path: dist/alfred-setapp-search.alfredworkflow
+        if-no-files-found: error
+
+    - name: Generate unique tag for stable release
+      if: github.ref == 'refs/heads/main'
+      id: stable_tag
+      run: |
+        TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+        TAG="v${{ github.run_number }}-${TIMESTAMP}"
+        echo "tag=${TAG}" >> $GITHUB_OUTPUT
+        echo "Generated stable tag: ${TAG}"
+
+    - name: Generate unique tag for beta release
+      if: github.ref == 'refs/heads/dev'
+      id: beta_tag
+      run: |
+        TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+        TAG="v${{ github.run_number }}-beta-${TIMESTAMP}"
+        echo "tag=${TAG}" >> $GITHUB_OUTPUT
+        echo "Generated beta tag: ${TAG}"
+
+    - name: Create stable release (main branch)
+      if: github.ref == 'refs/heads/main'
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: ${{ steps.stable_tag.outputs.tag }}
+        name: Release ${{ steps.stable_tag.outputs.tag }}
+        draft: false
+        prerelease: false
+        make_latest: true
+        files: |
+          dist/alfred-setapp-search.alfredworkflow
+        body: |
+          ## Alfred SetApp Search Workflow - Release ${{ steps.stable_tag.outputs.tag }}
+          
+          ### Changes
+          - Built from commit ${{ github.sha }}
+          - Automated build and test passed
+          - **Stable Release** from main branch
+          
+          ### Installation
+          1. Download the `alfred-setapp-search.alfredworkflow` file
+          2. Double-click to install in Alfred
+          3. Configure the keyword (default: `seta`)
+          
+          ### Features
+          - Search 260+ SetApp applications
+          - View app ratings and platforms
+          - Open SetApp pages or launch apps directly
+          - Cached app icons and data
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Create beta release (dev branch)
+      if: github.ref == 'refs/heads/dev'
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: ${{ steps.beta_tag.outputs.tag }}
+        name: Beta Release ${{ steps.beta_tag.outputs.tag }}
+        draft: false
+        prerelease: true
+        make_latest: false
+        files: |
+          dist/alfred-setapp-search.alfredworkflow
+        body: |
+          ## Alfred SetApp Search Workflow - Beta ${{ steps.beta_tag.outputs.tag }}
+          
+          ### ⚠️ Beta Release
+          This is a **beta release** built from the development branch. It may contain experimental features or bugs.
+          
+          ### Changes
+          - Built from commit ${{ github.sha }}
+          - Automated build and test passed
+          - **Beta Release** from dev branch
+          
+          ### Installation
+          1. Download the `alfred-setapp-search.alfredworkflow` file
+          2. Double-click to install in Alfred
+          3. Configure the keyword (default: `seta`)
+          
+          ### Features
+          - Search 260+ SetApp applications
+          - View app ratings and platforms
+          - Open SetApp pages or launch apps directly
+          - Cached app icons and data
+          
+          ### Beta Notes
+          - This version includes the latest development changes
+          - Please report any issues on the GitHub repository
+          - For stable releases, use the main branch releases
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  code-quality:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Create virtual environment
+      run: |
+        python -m venv .venv
+        source .venv/bin/activate
+        echo "VIRTUAL_ENV=$VIRTUAL_ENV" >> $GITHUB_ENV
+        echo "$VIRTUAL_ENV/bin" >> $GITHUB_PATH
+
+    - name: Install Python dependencies
+      run: |
+        source .venv/bin/activate
+        python -m pip install --upgrade pip
+        pip install pytest requests beautifulsoup4 lxml flake8 black isort
+
+    - name: Run Python code formatting check
+      run: |
+        source .venv/bin/activate
+        black --check src/script/ tests/ || echo "Code formatting issues found (consider running 'black src/script/ tests/')"
+
+    - name: Run Python import sorting check
+      run: |
+        source .venv/bin/activate
+        isort --check-only src/script/ tests/ || echo "Import sorting issues found (consider running 'isort src/script/ tests/')"
+
+    - name: Run Python linting
+      run: |
+        source .venv/bin/activate
+        flake8 src/script/ tests/ --max-line-length=88 --extend-ignore=E203,W503 || echo "Linting issues found"
