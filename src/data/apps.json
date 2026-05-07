@@ -2339,6 +2339,15 @@
       "arg": "https://setapp.com/apps/ready-to-send",
       "rating": 0,
       "platforms": "Web"
+    },
+    {
+      "uid": 1849,
+      "title": "Maestri",
+      "subtitle": "Code agents on one canvas",
+      "iconSrc": "https://setapp.com/cdn-cgi/image/quality=75,format=auto,width=80/https://store.setapp.com/app/1849/46965/icon-1778045755-69fad33b50ec7.png",
+      "arg": "https://setapp.com/apps/maestri",
+      "rating": 89,
+      "platforms": "Mac"
     }
   ]
 }

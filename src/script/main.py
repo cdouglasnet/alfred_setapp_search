@@ -223,14 +223,11 @@ def main():
             rating = it.get("rating")
             platforms = it.get("platforms", "")
             uid_val = it.get("uid")
-            base_subtitle = it.get("subtitle") or ""
-            if not base_subtitle:
-                parts = []
-                if rating is not None:
-                    parts.append(f"Rating: {rating}/100")
-                if platforms:
-                    parts.append(f"Platforms: {platforms}")
-                base_subtitle = " · ".join(parts) if parts else ""
+
+            desc_text = (it.get("subtitle") or "").strip() or "No description"
+            platforms_text = (platforms or "").strip() or "N/A"
+            rating_text = f"{rating}/100" if isinstance(rating, (int, float)) else "N/A"
+            base_subtitle = f"{desc_text} | {platforms_text} | {rating_text}"
 
             # Prefer provided uid; otherwise stable fallback
             alfred_uid = f"app-{uid_val}" if uid_val is not None else f"app-{idx}"
