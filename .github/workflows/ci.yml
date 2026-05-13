@@ -46,10 +46,10 @@ jobs:
       run: |
         source .venv/bin/activate
         python -m pip install --upgrade pip
-        pip install pytest requests beautifulsoup4 lxml
+        pip install -r requirements.txt
 
     - name: Install Node.js dependencies
-      run: npm install
+      run: npm ci
 
     - name: Run Python tests
       run: |
@@ -92,10 +92,10 @@ jobs:
       run: |
         source .venv/bin/activate
         python -m pip install --upgrade pip
-        pip install pytest requests beautifulsoup4 lxml
+        pip install -r requirements.txt
 
     - name: Install Node.js dependencies
-      run: npm install
+      run: npm ci
 
     - name: Build Alfred workflow
       run: |
@@ -246,7 +246,7 @@ jobs:
       run: |
         source .venv/bin/activate
         python -m pip install --upgrade pip
-        pip install pytest requests beautifulsoup4 lxml flake8 black isort
+        pip install -r requirements.txt flake8 black isort
 
     - name: Run Python code formatting check
       run: |

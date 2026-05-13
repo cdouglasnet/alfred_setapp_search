@@ -9,7 +9,7 @@
     "lint": ".venv/bin/python3 -m pylint src/script/*.py",
     "update-readme": "gulp update-readme-plist",
     "fix-plist": "gulp fix-plist",
-    "install-python-deps": ".venv/bin/python3 -m pip install requests beautifulsoup4 lxml"
+    "install-python-deps": ".venv/bin/python3 -m pip install -r requirements.txt"
   },
   "devDependencies": {
     "del": "^6.1.1",
