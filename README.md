@@ -1,4 +1,4 @@
-# Alfred SetApp Search
+# SetApp Search for Alfred
 Search SetApp Applications via Alfred
 
 ![Alt text](src/media/icon.webp)
@@ -61,6 +61,30 @@ npm install
 npm run build
 ```
 
+## Initial App Data Scrape Setup
+
+The workflow now includes an initial scraper setup to convert SetApp HTML app listings into workflow JSON.
+
+1. Place/update source HTML at `src/data/apps_temp.html`
+2. Run the scraper:
+
+```bash
+python3 src/script/scrape_apps_temp.py
+```
+
+This generates `src/data/apps_scraped.json` in workflow format:
+
+```json
+{
+  "items": [
+    {
+      "uid": 742,
+      "title": "Supercharge"
+    }
+  ]
+}
+```
+
 ## Version Change Summary
 
 ### v0.0.0.1
@@ -75,6 +99,11 @@ npm run build
 - 📦 Added Alfred variables: `setapp_status` and `setapp_ai`.
 - 📄 Updated Text View details to show AI+ status.
 - 🔖 Bumped workflow version to `0.0.0.2`.
+
+### v0.0.0.3
+- 🆕 Added 30 new apps to the dataset.
+- 🤖 Added initial auto-scrape setup to convert app HTML into JSON.
+- 🧱 Scraper output now matches workflow format with top-level `items`.
 
 ---
 * Workflow currently uses hardcoded apps.json file I formatted from their site: https://setapp.com/apps

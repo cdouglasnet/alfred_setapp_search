@@ -368,7 +368,7 @@ I have found many of the apps in SetApp extremely useful.
 		<string>./apps.json</string>
 	</dict>
 	<key>version</key>
-	<string>0.0.0.2</string>
+	<string>0.0.0.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/cdouglasnet/alfred_setapp_search</string>
 </dict>
