@@ -109,14 +109,56 @@ jobs:
         path: dist/alfred-setapp-search.alfredworkflow
         if-no-files-found: error
 
-    - name: Generate unique tag for stable release
+    - name: Read workflow version for stable release
       if: github.ref == 'refs/heads/main'
       id: stable_tag
       run: |
-        TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-        TAG="v${{ github.run_number }}-${TIMESTAMP}"
+        VERSION=$(python - <<'PY'
+        import plistlib
+        with open('src/info.plist', 'rb') as f:
+            data = plistlib.load(f)
+        print(data.get('version', '').strip())
+        PY
+        )
+        if [ -z "$VERSION" ]; then
+          echo "Could not read version from src/info.plist"
+          exit 1
+        fi
+        TAG="v${VERSION}"
         echo "tag=${TAG}" >> $GITHUB_OUTPUT
+        echo "version=${VERSION}" >> $GITHUB_OUTPUT
         echo "Generated stable tag: ${TAG}"
+
+    - name: Build stable release notes from README
+      if: github.ref == 'refs/heads/main'
+      id: stable_notes
+      run: |
+        VERSION="${{ steps.stable_tag.outputs.version }}"
+        NOTES_FILE="release-notes.md"
+
+        {
+          echo "## Alfred SetApp Search Workflow - Release v${VERSION}"
+          echo
+          echo "### Changes"
+          awk -v ver="$VERSION" '
+            $0 ~ "^### v" ver "$" { in_section=1; next }
+            in_section && $0 ~ /^### v/ { exit }
+            in_section && $0 ~ /^- / { print }
+          ' README.md
+          echo
+          echo "### Installation"
+          echo "1. Download the \`alfred-setapp-search.alfredworkflow\` file"
+          echo "2. Double-click to install in Alfred"
+          echo "3. Configure the keyword (default: \`seta\`)"
+        } > "$NOTES_FILE"
+
+        if ! grep -q "^- " "$NOTES_FILE"; then
+          echo "- Release generated from commit ${{ github.sha }}" >> "$NOTES_FILE"
+        fi
+
+        {
+          echo "notes_path=${NOTES_FILE}"
+        } >> $GITHUB_OUTPUT
 
     - name: Generate unique tag for beta release
       if: github.ref == 'refs/heads/dev'
@@ -138,24 +180,7 @@ jobs:
         make_latest: true
         files: |
           dist/alfred-setapp-search.alfredworkflow
-        body: |
-          ## Alfred SetApp Search Workflow - Release ${{ steps.stable_tag.outputs.tag }}
-          
-          ### Changes
-          - Built from commit ${{ github.sha }}
-          - Automated build and test passed
-          - **Stable Release** from main branch
-          
-          ### Installation
-          1. Download the `alfred-setapp-search.alfredworkflow` file
-          2. Double-click to install in Alfred
-          3. Configure the keyword (default: `seta`)
-          
-          ### Features
-          - Search 260+ SetApp applications
-          - View app ratings and platforms
-          - Open SetApp pages or launch apps directly
-          - Cached app icons and data
+        body_path: ${{ steps.stable_notes.outputs.notes_path }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
