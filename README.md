@@ -1,4 +1,12 @@
 # SetApp Search for Alfred
+
+[![Production Release](https://img.shields.io/github/actions/workflow/status/cdouglasnet/alfred_setapp_search/ci.yml?branch=main&label=Production%20Release)](https://github.com/cdouglasnet/alfred_setapp_search/actions/workflows/ci.yml?query=branch%3Amain)
+[![Beta Release](https://img.shields.io/github/actions/workflow/status/cdouglasnet/alfred_setapp_search/ci.yml?branch=dev&label=Beta%20Release)](https://github.com/cdouglasnet/alfred_setapp_search/actions/workflows/ci.yml?query=branch%3Adev)
+[![Version](https://img.shields.io/github/v/release/cdouglasnet/alfred_setapp_search?label=Version)](https://github.com/cdouglasnet/alfred_setapp_search/releases)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)](requirements.txt)
+[![Alfred](https://img.shields.io/badge/Alfred-5%2B-5C1F87)](https://www.alfredapp.com/)
+[![License](https://img.shields.io/github/license/cdouglasnet/alfred_setapp_search?label=License)](LICENSE)
+
 Search SetApp Applications via Alfred
 
 ![Alt text](src/media/icon.webp)
@@ -24,7 +32,7 @@ The apps main features include:
 # Setting Up Your Environment and Building The Project
 
 ## Prerequisites
-- Python 3.7 or higher
+- Python 3.9 or higher
 - Node.js (for build tools)
 
 ## Python Environment Setup
