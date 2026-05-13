@@ -9,7 +9,7 @@
       "rating": 100,
       "platforms": "Mac",
       "status":"",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 1776,
@@ -20,7 +20,7 @@
       "rating": 100,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 321,
@@ -31,7 +31,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 431,
@@ -42,7 +42,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 186,
@@ -53,7 +53,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 297,
@@ -64,7 +64,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 67,
@@ -75,7 +75,7 @@
       "rating": 99,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 320,
@@ -86,7 +86,7 @@
       "rating": 99,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 330,
@@ -97,7 +97,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 445,
@@ -108,7 +108,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 270,
@@ -119,7 +119,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 358,
@@ -130,7 +130,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 152,
@@ -141,7 +141,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 155,
@@ -152,7 +152,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 212,
@@ -163,7 +163,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 346,
@@ -174,7 +174,7 @@
       "rating": 99,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 551,
@@ -185,7 +185,7 @@
       "rating": 99,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 571,
@@ -196,7 +196,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 125,
@@ -207,7 +207,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 591,
@@ -218,7 +218,7 @@
       "rating": 99,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 284,
@@ -229,7 +229,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 509,
@@ -240,7 +240,7 @@
       "rating": 99,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 467,
@@ -251,7 +251,7 @@
       "rating": 99,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 153,
@@ -262,7 +262,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 98,
@@ -273,7 +273,7 @@
       "rating": 98,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 222,
@@ -284,7 +284,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 219,
@@ -295,7 +295,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 295,
@@ -306,7 +306,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 483,
@@ -317,7 +317,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 428,
@@ -328,7 +328,7 @@
       "rating": 98,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 184,
@@ -339,7 +339,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 349,
@@ -350,7 +350,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 493,
@@ -361,7 +361,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 188,
@@ -372,7 +372,7 @@
       "rating": 98,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 371,
@@ -383,7 +383,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 178,
@@ -394,7 +394,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 159,
@@ -405,7 +405,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 376,
@@ -416,7 +416,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 344,
@@ -427,7 +427,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 452,
@@ -438,7 +438,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 315,
@@ -449,7 +449,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 298,
@@ -460,7 +460,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 197,
@@ -471,7 +471,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 564,
@@ -482,7 +482,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 242,
@@ -493,7 +493,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 264,
@@ -504,7 +504,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 213,
@@ -515,7 +515,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 598,
@@ -526,7 +526,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 757,
@@ -537,7 +537,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 135,
@@ -548,7 +548,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 345,
@@ -559,7 +559,7 @@
       "rating": 98,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 78,
@@ -570,7 +570,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 144,
@@ -581,7 +581,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 194,
@@ -592,7 +592,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 365,
@@ -603,7 +603,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 280,
@@ -614,7 +614,7 @@
       "rating": 97,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 405,
@@ -625,7 +625,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 396,
@@ -636,7 +636,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 459,
@@ -647,7 +647,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 403,
@@ -658,7 +658,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 244,
@@ -669,7 +669,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 496,
@@ -680,7 +680,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 230,
@@ -691,7 +691,7 @@
       "rating": 97,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 74,
@@ -702,7 +702,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 544,
@@ -713,7 +713,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 437,
@@ -724,7 +724,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 378,
@@ -735,7 +735,7 @@
       "rating": 97,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 465,
@@ -746,7 +746,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 286,
@@ -757,7 +757,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 434,
@@ -768,7 +768,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 389,
@@ -779,7 +779,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 173,
@@ -790,7 +790,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 347,
@@ -801,7 +801,7 @@
       "rating": 97,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 395,
@@ -812,7 +812,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 616,
@@ -823,7 +823,7 @@
       "rating": 97,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 241,
@@ -834,7 +834,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 192,
@@ -845,7 +845,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 1775,
@@ -856,7 +856,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 481,
@@ -867,7 +867,7 @@
       "rating": 97,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 245,
@@ -878,7 +878,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 253,
@@ -889,7 +889,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 304,
@@ -900,7 +900,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 513,
@@ -911,7 +911,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 122,
@@ -922,7 +922,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 136,
@@ -933,7 +933,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 549,
@@ -944,7 +944,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 274,
@@ -955,7 +955,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 249,
@@ -966,7 +966,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 223,
@@ -977,7 +977,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 351,
@@ -988,7 +988,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 637,
@@ -999,7 +999,7 @@
       "rating": 96,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 714,
@@ -1010,7 +1010,7 @@
       "rating": 96,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 508,
@@ -1021,7 +1021,7 @@
       "rating": 96,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 333,
@@ -1032,7 +1032,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 231,
@@ -1043,7 +1043,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 419,
@@ -1054,7 +1054,7 @@
       "rating": 96,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 554,
@@ -1065,7 +1065,7 @@
       "rating": 95,
       "platforms": "Mac, iOS, Web",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 202,
@@ -1076,7 +1076,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 248,
@@ -1087,7 +1087,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 234,
@@ -1098,7 +1098,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 380,
@@ -1109,7 +1109,7 @@
       "rating": 95,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 385,
@@ -1120,7 +1120,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 466,
@@ -1131,7 +1131,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 366,
@@ -1142,7 +1142,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 438,
@@ -1153,7 +1153,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 626,
@@ -1164,7 +1164,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 217,
@@ -1175,7 +1175,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 401,
@@ -1186,7 +1186,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 243,
@@ -1197,7 +1197,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 463,
@@ -1208,7 +1208,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 364,
@@ -1219,7 +1219,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 377,
@@ -1230,7 +1230,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 357,
@@ -1241,7 +1241,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 746,
@@ -1252,7 +1252,7 @@
       "rating": 95,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 435,
@@ -1263,7 +1263,7 @@
       "rating": 95,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 469,
@@ -1274,7 +1274,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 605,
@@ -1285,7 +1285,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 426,
@@ -1296,7 +1296,7 @@
       "rating": 95,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 301,
@@ -1307,7 +1307,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 373,
@@ -1318,7 +1318,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 80,
@@ -1329,7 +1329,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 319,
@@ -1340,7 +1340,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 268,
@@ -1351,7 +1351,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 538,
@@ -1362,7 +1362,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 229,
@@ -1373,7 +1373,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 754,
@@ -1384,7 +1384,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 1768,
@@ -1395,7 +1395,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 355,
@@ -1406,7 +1406,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 407,
@@ -1417,7 +1417,7 @@
       "rating": 94,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 79,
@@ -1428,7 +1428,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 232,
@@ -1439,7 +1439,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 369,
@@ -1450,7 +1450,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 339,
@@ -1461,7 +1461,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 506,
@@ -1472,7 +1472,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 323,
@@ -1483,7 +1483,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 160,
@@ -1494,7 +1494,7 @@
       "rating": 93,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 68,
@@ -1505,7 +1505,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 206,
@@ -1516,7 +1516,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 130,
@@ -1527,7 +1527,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 356,
@@ -1538,7 +1538,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 95,
@@ -1549,7 +1549,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 134,
@@ -1560,7 +1560,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 70,
@@ -1571,7 +1571,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 343,
@@ -1582,7 +1582,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 174,
@@ -1593,7 +1593,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 335,
@@ -1604,7 +1604,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 324,
@@ -1615,7 +1615,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 753,
@@ -1626,7 +1626,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 756,
@@ -1637,7 +1637,7 @@
       "rating": 93,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 247,
@@ -1648,7 +1648,7 @@
       "rating": 92,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 362,
@@ -1659,7 +1659,7 @@
       "rating": 92,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 289,
@@ -1670,7 +1670,7 @@
       "rating": 92,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 209,
@@ -1681,7 +1681,7 @@
       "rating": 92,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 367,
@@ -1692,7 +1692,7 @@
       "rating": 92,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 558,
@@ -1703,7 +1703,7 @@
       "rating": 92,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 250,
@@ -1714,7 +1714,7 @@
       "rating": 92,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 596,
@@ -1725,7 +1725,7 @@
       "rating": 92,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 272,
@@ -1736,7 +1736,7 @@
       "rating": 92,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 627,
@@ -1747,7 +1747,7 @@
       "rating": 92,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 291,
@@ -1758,7 +1758,7 @@
       "rating": 91,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 489,
@@ -1769,7 +1769,7 @@
       "rating": 91,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 83,
@@ -1780,7 +1780,7 @@
       "rating": 91,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 408,
@@ -1791,7 +1791,7 @@
       "rating": 91,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 523,
@@ -1802,7 +1802,7 @@
       "rating": 91,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 487,
@@ -1813,7 +1813,7 @@
       "rating": 91,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 628,
@@ -1824,7 +1824,7 @@
       "rating": 91,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 609,
@@ -1835,7 +1835,7 @@
       "rating": 91,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 583,
@@ -1846,7 +1846,7 @@
       "rating": 90,
       "platforms": "Mac, Web",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 566,
@@ -1857,7 +1857,7 @@
       "rating": 90,
       "platforms": "Mac",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 240,
@@ -1868,7 +1868,7 @@
       "rating": 90,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 299,
@@ -1879,7 +1879,7 @@
       "rating": 90,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 266,
@@ -1890,7 +1890,7 @@
       "rating": 90,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 424,
@@ -1901,7 +1901,7 @@
       "rating": 90,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 504,
@@ -1912,7 +1912,7 @@
       "rating": 90,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 1774,
@@ -1923,7 +1923,7 @@
       "rating": 90,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 433,
@@ -1934,7 +1934,7 @@
       "rating": 89,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 518,
@@ -1945,7 +1945,7 @@
       "rating": 89,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 575,
@@ -1956,7 +1956,7 @@
       "rating": 89,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 719,
@@ -1967,7 +1967,7 @@
       "rating": 89,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 246,
@@ -1978,7 +1978,7 @@
       "rating": 89,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 512,
@@ -1989,7 +1989,7 @@
       "rating": 89,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 606,
@@ -2000,7 +2000,7 @@
       "rating": 89,
       "platforms": "Mac",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 541,
@@ -2011,7 +2011,7 @@
       "rating": 89,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 528,
@@ -2022,7 +2022,7 @@
       "rating": 88,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 521,
@@ -2033,7 +2033,7 @@
       "rating": 88,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 576,
@@ -2044,7 +2044,7 @@
       "rating": 87,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 393,
@@ -2055,7 +2055,7 @@
       "rating": 87,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 752,
@@ -2066,7 +2066,7 @@
       "rating": 87,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 699,
@@ -2077,7 +2077,7 @@
       "rating": 87,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 1771,
@@ -2088,7 +2088,7 @@
       "rating": 87,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 337,
@@ -2099,7 +2099,7 @@
       "rating": 87,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 175,
@@ -2110,7 +2110,7 @@
       "rating": 86,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 384,
@@ -2121,7 +2121,7 @@
       "rating": 86,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 546,
@@ -2132,7 +2132,7 @@
       "rating": 86,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 210,
@@ -2143,7 +2143,7 @@
       "rating": 86,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 584,
@@ -2154,7 +2154,7 @@
       "rating": 86,
       "platforms": "Mac",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 453,
@@ -2165,7 +2165,7 @@
       "rating": 86,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 764,
@@ -2176,7 +2176,7 @@
       "rating": 86,
       "platforms": "Mac",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 700,
@@ -2187,7 +2187,7 @@
       "rating": 86,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 336,
@@ -2198,7 +2198,7 @@
       "rating": 85,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 593,
@@ -2209,7 +2209,7 @@
       "rating": 85,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 749,
@@ -2220,7 +2220,7 @@
       "rating": 85,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 307,
@@ -2231,7 +2231,7 @@
       "rating": 84,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 276,
@@ -2242,7 +2242,7 @@
       "rating": 84,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 623,
@@ -2253,7 +2253,7 @@
       "rating": 84,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 505,
@@ -2264,7 +2264,7 @@
       "rating": 84,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 406,
@@ -2275,7 +2275,7 @@
       "rating": 84,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 436,
@@ -2286,7 +2286,7 @@
       "rating": 84,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 502,
@@ -2297,7 +2297,7 @@
       "rating": 84,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 635,
@@ -2308,7 +2308,7 @@
       "rating": 83,
       "platforms": "Mac, Web",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 760,
@@ -2319,7 +2319,7 @@
       "rating": 83,
       "platforms": "Mac, iOS, Web",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 451,
@@ -2330,7 +2330,7 @@
       "rating": 83,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 530,
@@ -2341,7 +2341,7 @@
       "rating": 83,
       "platforms": "iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 296,
@@ -2352,7 +2352,7 @@
       "rating": 82,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 592,
@@ -2363,7 +2363,7 @@
       "rating": 82,
       "platforms": "Mac",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 311,
@@ -2374,7 +2374,7 @@
       "rating": 82,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 477,
@@ -2385,7 +2385,7 @@
       "rating": 82,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 350,
@@ -2396,7 +2396,7 @@
       "rating": 82,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 1778,
@@ -2407,7 +2407,7 @@
       "rating": 82,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 711,
@@ -2418,7 +2418,7 @@
       "rating": 82,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 565,
@@ -2429,7 +2429,7 @@
       "rating": 81,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 370,
@@ -2440,7 +2440,7 @@
       "rating": 81,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 697,
@@ -2451,7 +2451,7 @@
       "rating": 81,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 744,
@@ -2462,7 +2462,7 @@
       "rating": 81,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 735,
@@ -2473,7 +2473,7 @@
       "rating": 80,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 691,
@@ -2484,7 +2484,7 @@
       "rating": 79,
       "platforms": "Mac",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 737,
@@ -2495,7 +2495,7 @@
       "rating": 79,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 193,
@@ -2506,7 +2506,7 @@
       "rating": 79,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 381,
@@ -2517,7 +2517,7 @@
       "rating": 78,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 326,
@@ -2528,7 +2528,7 @@
       "rating": 78,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 587,
@@ -2539,7 +2539,7 @@
       "rating": 78,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 201,
@@ -2550,7 +2550,7 @@
       "rating": 78,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 328,
@@ -2561,7 +2561,7 @@
       "rating": 77,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 720,
@@ -2572,7 +2572,7 @@
       "rating": 77,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 759,
@@ -2583,7 +2583,7 @@
       "rating": 77,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 732,
@@ -2594,7 +2594,7 @@
       "rating": 77,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 235,
@@ -2605,7 +2605,7 @@
       "rating": 75,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 314,
@@ -2616,7 +2616,7 @@
       "rating": 75,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 363,
@@ -2627,7 +2627,7 @@
       "rating": 74,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 688,
@@ -2638,7 +2638,7 @@
       "rating": 74,
       "platforms": "Mac",
       "status": "",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 581,
@@ -2649,7 +2649,7 @@
       "rating": 74,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 308,
@@ -2660,7 +2660,7 @@
       "rating": 74,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 594,
@@ -2671,7 +2671,7 @@
       "rating": 73,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 294,
@@ -2682,7 +2682,7 @@
       "rating": 73,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 545,
@@ -2693,7 +2693,7 @@
       "rating": 71,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 619,
@@ -2704,7 +2704,7 @@
       "rating": 71,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 517,
@@ -2715,7 +2715,7 @@
       "rating": 70,
       "platforms": "Mac, iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 340,
@@ -2726,7 +2726,7 @@
       "rating": 68,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 488,
@@ -2737,7 +2737,7 @@
       "rating": 67,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 238,
@@ -2748,7 +2748,7 @@
       "rating": 67,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 618,
@@ -2759,7 +2759,7 @@
       "rating": 67,
       "platforms": "iOS, Web",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 494,
@@ -2770,7 +2770,7 @@
       "rating": 67,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 729,
@@ -2781,7 +2781,7 @@
       "rating": 66,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 738,
@@ -2792,7 +2792,7 @@
       "rating": 62,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 516,
@@ -2803,7 +2803,7 @@
       "rating": 61,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 399,
@@ -2814,7 +2814,7 @@
       "rating": 59,
       "platforms": "iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 535,
@@ -2825,7 +2825,7 @@
       "rating": 57,
       "platforms": "iOS",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 717,
@@ -2836,7 +2836,7 @@
       "rating": 46,
       "platforms": "Mac",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 709,
@@ -2847,7 +2847,7 @@
       "rating": 0,
       "platforms": "Web",
       "status": "",
-      "ai+": ""
+      "ai": ""
     },
     {
       "uid": 607,
@@ -2858,7 +2858,7 @@
       "rating": 0,
       "platforms": "Web",
       "status": "new",
-      "ai+": "ai+"
+      "ai": "ai+"
     },
     {
       "uid": 1849,
@@ -2869,7 +2869,7 @@
       "rating": 89,
       "platforms": "Mac",
       "status": "new",
-      "ai+": "ai+"
+      "ai": "ai+"
     }
   ]
 }

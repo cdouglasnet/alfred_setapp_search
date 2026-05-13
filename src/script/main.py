@@ -101,6 +101,8 @@ def _normalize_items(raw):
             "arg": (it.get("arg") or "").strip(),
             "rating": it.get("rating", None),
             "platforms": (it.get("platforms") or "").strip(),
+            "status": (it.get("status") or "").strip(),
+            "ai": (it.get("ai") or "").strip(),
         })
     return normed
 
@@ -122,6 +124,8 @@ def load_apps():
             "arg": "",
             "rating": None,
             "platforms": "",
+            "status": "",
+            "ai": "",
         }]
 
 # Keep your existing load_items function as a fallback if needed
@@ -140,6 +144,8 @@ def load_items(json_path: str):
             "arg": "",
             "rating": None,
             "platforms": "",
+            "status": "",
+            "ai": "",
         }]
 
 def query_text():
@@ -223,11 +229,18 @@ def main():
             rating = it.get("rating")
             platforms = it.get("platforms", "")
             uid_val = it.get("uid")
+            status_text = (it.get("status") or "").strip()
+            ai_text = (it.get("ai") or "").strip()
 
             desc_text = (it.get("subtitle") or "").strip() or "No description"
             platforms_text = (platforms or "").strip() or "N/A"
             rating_text = f"{rating}/100" if isinstance(rating, (int, float)) else "N/A"
-            base_subtitle = f"{desc_text} | {platforms_text} | {rating_text}"
+            subtitle_parts = [desc_text, platforms_text, rating_text]
+            if ai_text:
+                subtitle_parts.append(f"AI: {ai_text}")
+            if status_text:
+                subtitle_parts.append(f"Status: {status_text}")
+            base_subtitle = " | ".join(subtitle_parts)
 
             # Prefer provided uid; otherwise stable fallback
             alfred_uid = f"app-{uid_val}" if uid_val is not None else f"app-{idx}"
@@ -249,6 +262,8 @@ def main():
                     "setapp_arg": it.get("arg", ""),
                     "setapp_rating": str(rating) if rating is not None else "",
                     "setapp_platforms": platforms or "",
+                    "setapp_status": status_text,
+                    "setapp_ai": ai_text,
                     "setapp_deeplink": f"setapp://launch/{uid_val}" if uid_val is not None else ""
                 },
                 # Let Alfred filter if you enable "Alfred filters results" in the node
@@ -256,7 +271,9 @@ def main():
                     it.get("title", ""),
                     it.get("subtitle", ""),
                     str(rating or ""),
-                    platforms or ""
+                    platforms or "",
+                    status_text,
+                    ai_text,
                 ]).strip()
             }
 

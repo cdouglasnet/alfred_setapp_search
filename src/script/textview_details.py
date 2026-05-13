@@ -94,6 +94,8 @@ def get_app_details_textview():
     arg_url = os.environ.get('setapp_arg', '')
     rating = os.environ.get('setapp_rating', '')
     platforms = os.environ.get('setapp_platforms', '')
+    status_text = os.environ.get('setapp_status', '')
+    ai_text = os.environ.get('setapp_ai', '')
     deeplink = os.environ.get('setapp_deeplink', '')
 
     # Build the detailed response text
@@ -130,6 +132,12 @@ def get_app_details_textview():
 
     if platforms:
         response_lines.append(f"💻 Platforms: {platforms}")
+
+    if ai_text:
+        response_lines.append(f"🤖 AI: {ai_text}")
+
+    if status_text:
+        response_lines.append(f"📌 Status: {status_text}")
 
     response_lines.append("")
 
@@ -174,6 +182,8 @@ def get_app_details_textview():
             "setapp_arg": arg_url,
             "setapp_rating": rating,
             "setapp_platforms": platforms,
+            "setapp_status": status_text,
+            "setapp_ai": ai_text,
             "setapp_deeplink": deeplink
         },
         "rerun": 0,  # Don't auto-refresh
