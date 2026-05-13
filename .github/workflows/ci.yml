@@ -49,7 +49,12 @@ jobs:
         pip install -r requirements.txt
 
     - name: Install Node.js dependencies
-      run: npm ci
+      run: |
+        if [ -f package-lock.json ]; then
+          npm ci
+        else
+          npm install
+        fi
 
     - name: Run Python tests
       run: |
@@ -95,7 +100,12 @@ jobs:
         pip install -r requirements.txt
 
     - name: Install Node.js dependencies
-      run: npm ci
+      run: |
+        if [ -f package-lock.json ]; then
+          npm ci
+        else
+          npm install
+        fi
 
     - name: Build Alfred workflow
       run: |
