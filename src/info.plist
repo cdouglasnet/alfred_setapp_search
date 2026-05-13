@@ -104,7 +104,7 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Loading...</string>
+				<string>Loading Icons and Data... ⇧ = Open Deep Link ⌘ = View Detailed Info</string>
 				<key>script</key>
 				<string>/usr/bin/python3 script/main.py "{query}"</string>
 				<key>scriptargtype</key>

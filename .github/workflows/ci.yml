@@ -25,7 +25,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
 
@@ -46,10 +46,15 @@ jobs:
       run: |
         source .venv/bin/activate
         python -m pip install --upgrade pip
-        pip install pytest requests beautifulsoup4 lxml
+        pip install -r requirements.txt
 
     - name: Install Node.js dependencies
-      run: npm install
+      run: |
+        if [ -f package-lock.json ]; then
+          npm ci
+        else
+          npm install
+        fi
 
     - name: Run Python tests
       run: |
@@ -71,7 +76,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Set up Python 3.11
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
@@ -92,10 +97,15 @@ jobs:
       run: |
         source .venv/bin/activate
         python -m pip install --upgrade pip
-        pip install pytest requests beautifulsoup4 lxml
+        pip install -r requirements.txt
 
     - name: Install Node.js dependencies
-      run: npm install
+      run: |
+        if [ -f package-lock.json ]; then
+          npm ci
+        else
+          npm install
+        fi
 
     - name: Build Alfred workflow
       run: |
@@ -231,7 +241,7 @@ jobs:
     - uses: actions/checkout@v4
 
     - name: Set up Python 3.11
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
@@ -246,7 +256,7 @@ jobs:
       run: |
         source .venv/bin/activate
         python -m pip install --upgrade pip
-        pip install pytest requests beautifulsoup4 lxml flake8 black isort
+        pip install -r requirements.txt flake8 black isort
 
     - name: Run Python code formatting check
       run: |
