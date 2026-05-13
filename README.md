@@ -15,7 +15,7 @@ SetApp is a paid subscription service that gives you access to **260+ Mac / iOS*
 This workflow allows you to search/filter the apps included in SetApp
 and open the app page in your browser or open the app if installed.
 
-![Alt text](src/media/SetApp_App_Search.webp)
+![Alt text](src/media/SetApp_App_Search2.png)
 
 The apps main features include:
 ---
