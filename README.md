@@ -61,6 +61,21 @@ npm install
 npm run build
 ```
 
+## Version Change Summary
+
+### v0.0.0.1
+- 🧾 Added app details view in Alfred Text View.
+- 🔁 Passed app data as Alfred variables.
+- 🖼️ Improved cached icon/details display.
+- 🛠️ Added setup and build steps to the README.
+
+### v0.0.0.2
+- ✨ Added support for `status` and `ai` fields.
+- 🧠 Included AI/status text in result subtitles and search matching.
+- 📦 Added Alfred variables: `setapp_status` and `setapp_ai`.
+- 📄 Updated Text View details to show AI+ status.
+- 🔖 Bumped workflow version to `0.0.0.2`.
+
 ---
 * Workflow currently uses hardcoded apps.json file I formatted from their site: https://setapp.com/apps
 * TODO - make JSON file download via an API or some other way rather than including in workflow.
