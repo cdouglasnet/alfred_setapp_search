@@ -7,6 +7,10 @@
 [![Alfred](https://img.shields.io/badge/Alfred-5%2B-5C1F87)](https://www.alfredapp.com/)
 [![License](https://img.shields.io/github/license/cdouglasnet/alfred_setapp_search?label=License)](LICENSE)
 
+[![counter](https://img.shields.io/github/downloads/cdouglasnet/alfred_setapp_search/latest/total)](https://github.com/cdouglasnet/alfred_setapp_search/releases)
+[![counter](https://img.shields.io/github/downloads/cdouglasnet/alfred_setapp_search/total)](https://github.com/cdouglasnet/alfred_setapp_search/releases)
+
+
 Search SetApp Applications via Alfred
 
 ![Alt text](src/media/icon.webp)
