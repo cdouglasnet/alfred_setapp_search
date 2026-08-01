@@ -33,6 +33,11 @@ The apps main features include:
 * ⌥ - show the Rating of the selected app
 * ⌘+⌥ - Show both the Platforms and the ratings
 
+## Usage
+- `seta` - All Apps Search (Membership and Standalone) <kbd>↩</kbd>
+- `setam` - Membership Only Apps <kbd>↩</kbd>
+- `setas` - Standalone Only Apps ($$$) <kbd>↩</kbd>
+
 # Setting Up Your Environment and Building The Project
 
 ## Prerequisites

@@ -426,6 +426,21 @@ The apps main features include:
 * ⌥ - show the Rating of the selected app
 * ⌘+⌥ - Show both the Platforms and the ratings
 
+## Usage
+- `seta` - All Apps Search (Membership and Standalone) &lt;kbd&gt;↩&lt;/kbd&gt;
+- `setam` - Membership Only Apps &lt;kbd&gt;↩&lt;/kbd&gt;
+- `setas` - Standalone Only Apps ($$$) &lt;kbd&gt;↩&lt;/kbd&gt;
+
+## 🧑‍💻 Version Change Summary
+
+### v0.0.0.4
+- 🆕 Added around 90 new apps (Membership/Standalone)
+- 🔄 Updated scraper to handle new app types
+- ⭐️ `seta` modified - All Apps Search (Membership and Standalone)
+- ☑️ Checkbox added for membership only in All Apps Search
+- 💵 `setam` added - Memebership Only Apps
+- 💰 `setas` added - Standalone Only Apps ($$$)
+
 TODO - make JSON file download via an API or some other way rather than including in workflow.
 TODO - filter by platform i.e. iOS | macOS
 TODO - sort by rating i.e. percentage out of 100
