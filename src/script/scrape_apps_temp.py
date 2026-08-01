@@ -63,6 +63,8 @@ def main() -> None:
                 "platforms": platforms,
                 "status": "" if badge_text == "AI+" else badge_text,
                 "ai": "AI+" if badge_text == "AI+" else "",
+                "membership": True,
+                "price": "",
             }
         )
 
@@ -73,5 +75,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
 

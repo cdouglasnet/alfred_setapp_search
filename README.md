@@ -113,6 +113,15 @@ This generates `src/data/apps_scraped.json` in workflow format:
 - 🤖 Added initial auto-scrape setup to convert app HTML into JSON.
 - 🧱 Scraper output now matches workflow format with top-level `items`.
 
+### v0.0.0.4
+- 🆕 Added around 90 new apps (Membership/Standalone)
+- 🔄 Updated scraper to handle new app types
+- ⭐️ `seta` modified - All Apps Search (Membership and Standalone)
+- ☑️ Checkbox added for membership only in All Apps Search
+- 💵 `setam` added - Memebership Only Apps
+- 💰 `setas` added - Standalone Only Apps ($$$)
+
+
 ---
 * Workflow currently uses hardcoded apps.json file I formatted from their site: https://setapp.com/apps
 * TODO - make JSON file download via an API or some other way rather than including in workflow.
