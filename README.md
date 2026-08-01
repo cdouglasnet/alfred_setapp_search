@@ -7,6 +7,10 @@
 [![Alfred](https://img.shields.io/badge/Alfred-5%2B-5C1F87)](https://www.alfredapp.com/)
 [![License](https://img.shields.io/github/license/cdouglasnet/alfred_setapp_search?label=License)](LICENSE)
 
+[![counter](https://img.shields.io/github/downloads/cdouglasnet/alfred_setapp_search/latest/total)](https://github.com/cdouglasnet/alfred_setapp_search/releases)
+[![counter](https://img.shields.io/github/downloads/cdouglasnet/alfred_setapp_search/total)](https://github.com/cdouglasnet/alfred_setapp_search/releases)
+
+
 Search SetApp Applications via Alfred
 
 ![Alt text](src/media/icon.webp)
@@ -28,6 +32,11 @@ The apps main features include:
 * ⌘ - show the platforms this app works on
 * ⌥ - show the Rating of the selected app
 * ⌘+⌥ - Show both the Platforms and the ratings
+
+## Usage
+- `seta` - All Apps Search (Membership and Standalone) <kbd>↩</kbd>
+- `setam` - Membership Only Apps <kbd>↩</kbd>
+- `setas` - Standalone Only Apps ($$$) <kbd>↩</kbd>
 
 # Setting Up Your Environment and Building The Project
 
@@ -112,6 +121,15 @@ This generates `src/data/apps_scraped.json` in workflow format:
 - 🆕 Added 30 new apps to the dataset.
 - 🤖 Added initial auto-scrape setup to convert app HTML into JSON.
 - 🧱 Scraper output now matches workflow format with top-level `items`.
+
+### v0.0.0.4
+- 🆕 Added around 90 new apps (Membership/Standalone)
+- 🔄 Updated scraper to handle new app types
+- ⭐️ `seta` modified - All Apps Search (Membership and Standalone)
+- ☑️ Checkbox added for membership only in All Apps Search
+- 💵 `setam` added - Memebership Only Apps
+- 💰 `setas` added - Standalone Only Apps ($$$)
+
 
 ---
 * Workflow currently uses hardcoded apps.json file I formatted from their site: https://setapp.com/apps

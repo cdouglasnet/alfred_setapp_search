@@ -103,6 +103,8 @@ def _normalize_items(raw):
             "platforms": (it.get("platforms") or "").strip(),
             "status": (it.get("status") or "").strip(),
             "ai": (it.get("ai") or "").strip(),
+            "membership": (it.get("membership") or ""),
+            "price": (it.get("price") or ""),
         })
     return normed
 
@@ -146,26 +148,38 @@ def load_items(json_path: str):
             "platforms": "",
             "status": "",
             "ai": "",
+            "membership": None,
+            "price": ""
         }]
 
-def query_text():
-    # argv
+def query_and_mode():
+    # argv:
+    # - arg1: query text
+    # - arg2 (optional): explicit mode, e.g. "standalone"
     if len(sys.argv) > 1:
-        return " ".join(sys.argv[1:]).strip()
+        query = sys.argv[1].strip()
+        mode = sys.argv[2].strip().lower() if len(sys.argv) > 2 else ""
+        return query, mode
     # env fallbacks
     for key in ("alfred_query", "query"):
         v = os.environ.get(key)
         if v:
-            return v.strip()
+            return v.strip(), ""
     # stdin fallback
     try:
         if not sys.stdin.isatty():
             data = sys.stdin.read().strip()
             if data:
-                return data
+                return data, ""
     except Exception:
         pass
-    return ""
+    return "", ""
+
+def env_var_enabled(name: str) -> bool:
+    value = os.environ.get(name)
+    if value is None:
+        return False
+    return str(value).strip().lower() in {"1", "true", "yes", "on"}
 
 def match(item, q):
     if not q:
@@ -212,8 +226,14 @@ def build_mods(arg_url, rating, platforms, uid):
 
 def main():
     try:
-        q = query_text()
+        q, cli_mode = query_and_mode()
+        search_mode = (os.environ.get("setapp_search_mode") or cli_mode or "").strip().lower()
+        standalone_only = search_mode in {"standalone", "setas", "standalone_only"}
+        member_only = env_var_enabled("member_only") or (search_mode in {"member_only", "membership", "setam"})
         utils.log_info(f"Query: '{q}'")
+        utils.log_info(f"search_mode: '{search_mode}'")
+        utils.log_info(f"standalone_only: {standalone_only}")
+        utils.log_info(f"member_only: {member_only}")
 
         # Use the new load_apps function instead of load_items
         items = load_apps()
@@ -225,17 +245,32 @@ def main():
             if not match(it, q):
                 continue
 
+            membership_bool = bool(it.get("membership"))
+            if standalone_only and membership_bool:
+                continue
+            if member_only and not membership_bool:
+                continue
+
             icon_path = download_icon(it.get("iconSrc", ""), cache_dir)
             rating = it.get("rating")
             platforms = it.get("platforms", "")
             uid_val = it.get("uid")
             status_text = (it.get("status") or "").strip()
+            membership_bool = bool(it.get("membership"))
+            price_text = it.get("price")
             ai_text = (it.get("ai") or "").strip()
 
             desc_text = (it.get("subtitle") or "").strip() or "No description"
             platforms_text = (platforms or "").strip() or "N/A"
             rating_text = f"{rating}/100" if isinstance(rating, (int, float)) else "N/A"
             subtitle_parts = [desc_text, platforms_text, rating_text]
+            if membership_bool:
+                subtitle_parts.append("Membership")
+            else:
+                subtitle_parts.append("Standalone")
+
+            if price_text:
+                subtitle_parts.append(f"Price: {price_text}")
             if ai_text:
                 subtitle_parts.append(f"AI: {ai_text}")
             if status_text:

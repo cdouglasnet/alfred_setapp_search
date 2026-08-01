@@ -5,10 +5,43 @@
 	<key>bundleid</key>
 	<string>net.cdoug.setapp</string>
 	<key>category</key>
-	<string>Productivity</string>
+	<string>CDoug</string>
 	<key>connections</key>
 	<dict>
 		<key>1938E42D-F446-4CDA-9B1C-2654DC417B5B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A34DAC41-1DCD-4F81-A635-C6CCEFF38027</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EA97ECBA-9A6D-40BF-91D7-F0E1F1C850DC</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C508756C-5829-4DB6-91F8-562EE5C44994</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3D47C32E-91E6-4F0F-8C7C-B88815C7920E</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -67,6 +100,39 @@
 				<false/>
 			</dict>
 		</array>
+		<key>FC29449C-7883-4544-ADF7-D1D14C3EEE4E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A34DAC41-1DCD-4F81-A635-C6CCEFF38027</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>EA97ECBA-9A6D-40BF-91D7-F0E1F1C850DC</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>C508756C-5829-4DB6-91F8-562EE5C44994</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Christopher Douglas</string>
@@ -112,9 +178,9 @@
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>Search the 260+ Apps included in Setapp</string>
+				<string>Search the 375+ Apps included in Setapp + Standalone</string>
 				<key>title</key>
-				<string>Setapp App Search</string>
+				<string>Setapp All App Search</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -126,6 +192,27 @@
 			<string>1938E42D-F446-4CDA-9B1C-2654DC417B5B</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A34DAC41-1DCD-4F81-A635-C6CCEFF38027</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -159,27 +246,6 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>A34DAC41-1DCD-4F81-A635-C6CCEFF38027</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>skipqueryencode</key>
-				<false/>
-				<key>skipvarencode</key>
-				<false/>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string></string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
 			<string>EA97ECBA-9A6D-40BF-91D7-F0E1F1C850DC</string>
 			<key>version</key>
 			<integer>1</integer>
@@ -187,21 +253,51 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>externaltriggerid</key>
-				<string>_sapp</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<false/>
-				<key>workflowbundleid</key>
-				<string>self</string>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>{var:keyword2}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading Icons and Data... ⇧ = Open Deep Link ⌘ = View Detailed Info</string>
+				<key>script</key>
+				<string>/usr/bin/python3 script/main.py "{query}" setam</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Search the 260+ Apps included in Setapp Membership</string>
+				<key>title</key>
+				<string>Setapp Membership App Search</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>C6E0C59A-175A-447A-A153-C05772A4167E</string>
+			<string>3D47C32E-91E6-4F0F-8C7C-B88815C7920E</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -236,6 +332,74 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>{var:keyword3}</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading Icons and Data... ⇧ = Open Deep Link ⌘ = View Detailed Info</string>
+				<key>script</key>
+				<string>/usr/bin/python3 script/main.py "{query}" setas</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Search the 85+ Apps Outside Setapp Subscription</string>
+				<key>title</key>
+				<string>Setapp Standalone Search</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FC29449C-7883-4544-ADF7-D1D14C3EEE4E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>_sapp</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>C6E0C59A-175A-447A-A153-C05772A4167E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># SetApp Search
@@ -262,6 +426,21 @@ The apps main features include:
 * ⌥ - show the Rating of the selected app
 * ⌘+⌥ - Show both the Platforms and the ratings
 
+## Usage
+- `seta` - All Apps Search (Membership and Standalone) &lt;kbd&gt;↩&lt;/kbd&gt;
+- `setam` - Membership Only Apps &lt;kbd&gt;↩&lt;/kbd&gt;
+- `setas` - Standalone Only Apps ($$$) &lt;kbd&gt;↩&lt;/kbd&gt;
+
+## 🧑‍💻 Version Change Summary
+
+### v0.0.0.4
+- 🆕 Added around 90 new apps (Membership/Standalone)
+- 🔄 Updated scraper to handle new app types
+- ⭐️ `seta` modified - All Apps Search (Membership and Standalone)
+- ☑️ Checkbox added for membership only in All Apps Search
+- 💵 `setam` added - Memebership Only Apps
+- 💰 `setas` added - Standalone Only Apps ($$$)
+
 TODO - make JSON file download via an API or some other way rather than including in workflow.
 TODO - filter by platform i.e. iOS | macOS
 TODO - sort by rating i.e. percentage out of 100
@@ -287,6 +466,13 @@ I have found many of the apps in SetApp extremely useful.
 			<real>165</real>
 			<key>ypos</key>
 			<real>15</real>
+		</dict>
+		<key>3D47C32E-91E6-4F0F-8C7C-B88815C7920E</key>
+		<dict>
+			<key>xpos</key>
+			<real>165</real>
+			<key>ypos</key>
+			<real>175</real>
 		</dict>
 		<key>9F36AD33-8D62-413D-B63E-79B3E2C14BE1</key>
 		<dict>
@@ -337,6 +523,13 @@ I have found many of the apps in SetApp extremely useful.
 			<key>ypos</key>
 			<real>175</real>
 		</dict>
+		<key>FC29449C-7883-4544-ADF7-D1D14C3EEE4E</key>
+		<dict>
+			<key>xpos</key>
+			<real>165</real>
+			<key>ypos</key>
+			<real>335</real>
+		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array>
@@ -353,13 +546,74 @@ I have found many of the apps in SetApp extremely useful.
 				<true/>
 			</dict>
 			<key>description</key>
-			<string>Customize the Keyword</string>
+			<string>All Apps Keyword</string>
 			<key>label</key>
 			<string>Keyword</string>
 			<key>type</key>
 			<string>textfield</string>
 			<key>variable</key>
 			<string>keyword</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>setam</string>
+				<key>placeholder</key>
+				<string>Customize the Keyword</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Membership Apps Keyword</string>
+			<key>label</key>
+			<string>Keyword2</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword2</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>setas</string>
+				<key>placeholder</key>
+				<string>Customize the Keyword</string>
+				<key>required</key>
+				<true/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Standalone Apps Keyword</string>
+			<key>label</key>
+			<string>Keyword3</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>keyword3</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Checked = Hide Standalone Apps</string>
+			</dict>
+			<key>description</key>
+			<string>Only Show Apps included in SetApp Membership - not Standalone Apps</string>
+			<key>label</key>
+			<string>Membership Only</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>member_only</string>
 		</dict>
 	</array>
 	<key>variables</key>
@@ -368,7 +622,7 @@ I have found many of the apps in SetApp extremely useful.
 		<string>./apps.json</string>
 	</dict>
 	<key>version</key>
-	<string>0.0.0.3</string>
+	<string>0.0.0.4</string>
 	<key>webaddress</key>
 	<string>https://github.com/cdouglasnet/alfred_setapp_search</string>
 </dict>
